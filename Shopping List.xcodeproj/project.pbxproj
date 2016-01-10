@@ -12,6 +12,8 @@
 		EC864E5A1C3DC7C40065EF76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC864E581C3DC7C40065EF76 /* Main.storyboard */; };
 		EC864E5C1C3DC7C40065EF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC864E5B1C3DC7C40065EF76 /* Assets.xcassets */; };
 		EC864E5F1C3DC7C40065EF76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC864E5D1C3DC7C40065EF76 /* LaunchScreen.storyboard */; };
+		ECD24B171C3DD083003C0DA2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD24B161C3DD083003C0DA2 /* ListViewController.swift */; };
+		ECD24B191C3DD483003C0DA2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD24B181C3DD483003C0DA2 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EC864E5B1C3DC7C40065EF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC864E5E1C3DC7C40065EF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC864E601C3DC7C40065EF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD24B161C3DD083003C0DA2 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		ECD24B181C3DD483003C0DA2 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				EC864E5B1C3DC7C40065EF76 /* Assets.xcassets */,
 				EC864E5D1C3DC7C40065EF76 /* LaunchScreen.storyboard */,
 				EC864E601C3DC7C40065EF76 /* Info.plist */,
+				ECD24B161C3DD083003C0DA2 /* ListViewController.swift */,
+				ECD24B181C3DD483003C0DA2 /* Item.swift */,
 			);
 			path = "Shopping List";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD24B191C3DD483003C0DA2 /* Item.swift in Sources */,
 				EC864E571C3DC7C30065EF76 /* ViewController.swift in Sources */,
 				EC864E551C3DC7C30065EF76 /* AppDelegate.swift in Sources */,
+				ECD24B171C3DD083003C0DA2 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +292,7 @@
 				EC864E651C3DC7C40065EF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
